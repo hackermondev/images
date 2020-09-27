@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <title>images</title>
+    <meta name="title" content="images">
+    <meta name="description" content="A free image hosting website that can host up to 20 TB of image data. Created by Hackermon :)">
+  </head>
+  <body>
+    <div class="center">
+      <h1>images</h1>
+      <button onclick="upload()">upload</button>
+    </div>
+
+    <form hidden id="form" method="POST" enctype="multipart/form-data" action="/upload">
+      <input type="file" id="file" accept="image/*" name="image">
+    </form>
+    <script src="/assets/js/home.js"></script>
+  </body>
+</html>
